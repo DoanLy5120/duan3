@@ -38,6 +38,30 @@ a{
     color: #fff;
 }
 
+.btn:hover{
+    opacity: 0.9;
+}
+
+.section-heading{
+    color: #10375c;
+    font-style: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-size: 3.0rem;
+}
+
+.section-desc{
+    margin-top: 18px;
+    color: #575f66;
+    font-style: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+    font-size: 1.2rem;
+}
+
+/* header */
+
 .header{
     background: #10375C;
     min-height: 100vh;
@@ -120,10 +144,9 @@ a{
     margin-top: 22px;
     color: #c9d2da;
     font-family: Sora;
-    font-style: 18px;
-    font-style: normal;
+    font-style: 1.8rem;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 1.67;
 }
 
 .hero__row{
@@ -162,4 +185,78 @@ a{
 .hero__img-small{
     width: 210px;
     height: 410px;
+}
+
+/* Service */
+.service{
+    padding: 170px;
+}
+
+.service__heading,
+.service__desc{
+    text-align: center;
+}
+
+.service__desc{
+    width: 468px;
+    margin: 0 auto;
+}
+
+.service__row{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service__img{
+    width: 560px;
+    height: 560px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.service-item{
+    padding: 21px;
+    display: flex;
+    width: 470px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.service-item:hover{
+    box-shadow: 0px 14px 28px 0 px rgba(0,0,0,0.05);
+}
+
+.service-item__icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #eff6fd;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.service-item__heading{
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service-item__desc{
+    margin-top: 8px;
+    color: #575f66;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.service__btn{
+    margin-top: 55px;
 }
