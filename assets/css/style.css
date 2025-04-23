@@ -89,6 +89,10 @@ a{
     rotate: 180deg;
 }
 
+input,textarea,select,button{
+    font-family: inherit;
+    font-size: inherit;
+}
 /* header */
 
 .header{
@@ -611,4 +615,65 @@ a{
 
 .blog-item__more:hover{
     color: #2e80ce;
+}
+
+/* footer */
+.footer{
+    margin-top: 170px;
+    padding-top: 100px;
+    background: #10375c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__top{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    gap: 78px;
+}
+
+.footer__desc{
+    margin-top: 21px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #a9b3bb;
+}
+
+.footer__heading{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer__list{
+    margin: 20px 0 28px;
+}
+
+.footer__link{
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    white-space: nowrap;
+}
+
+.footer__item{
+    margin-bottom: 10px;
+}
+
+.footer-form{
+    display: flex;
+    column-gap: 12px;
+    margin-top: 10px;
+}
+
+.footer-form__input{
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    background: transparent;
+    outline: none;
+    color: #fff;
 }
